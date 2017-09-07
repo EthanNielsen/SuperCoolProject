@@ -1,6 +1,6 @@
 package supercool.controller;
 
-public class ProccessController
+public class ProcessController
 {
 	public void start()
 	{

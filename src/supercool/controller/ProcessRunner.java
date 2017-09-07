@@ -4,7 +4,7 @@ public class ProcessRunner
 {
 	public static void main (String [] args)
 	{
-		ProccessController appController = new ProccessController();
+		ProcessController appController = new ProcessController();
 		appController.start();
 	}
 }
