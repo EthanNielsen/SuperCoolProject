@@ -19,7 +19,7 @@ public class CookieClicker
 	
 	public String toString()
 	{
-		String description = "He He Cookies! " + size;
+		String description = "Mhhhhhh... Cookie Clicks.. want " + size + "?";
 		return description;
 	}
 }

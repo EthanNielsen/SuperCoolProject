@@ -1,5 +1,6 @@
 package supercool.controller;
 
+import java.util.Scanner;
 import supercool.model.PlayDohCircle;
 
 import supercool.model.CookieClicker;
@@ -32,8 +33,16 @@ public class ProcessController
 		CookieClicker secondClick;
 		secondClick = new CookieClicker();
 		
-		System.out.println("I got lots of clicks");
+		Scanner myScanner = new Scanner(System.in);
+		System.out.println("How many click do you want?");
+		int circleSize = myScanner.nextInt();
+		
+		
+		System.out.println("Oh man.. I can hook you up with some good clicks..");
 		System.out.println(firstClick);
-		System.out.println(secondClick);
+		
+	//	Scanner sc = new Scanner(System.in);
+	//	int i = sc.nextInt (yes);
+		
 		}
 }
