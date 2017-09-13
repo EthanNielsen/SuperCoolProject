@@ -41,6 +41,11 @@ public class ProcessController
 		System.out.println("Oh man.. I can hook you up with some good clicks..");
 		System.out.println(firstClick);
 		
+		System.out.println("How many clicks should we change it to?");
+		int updated = myScanner.nextInt();
+		thirdCircle.setSize(updated);
+		System.out.println(thirdCircle);
+		
 	//	Scanner sc = new Scanner(System.in);
 	//	int i = sc.nextInt (yes);
 		
