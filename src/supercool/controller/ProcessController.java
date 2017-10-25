@@ -10,7 +10,7 @@ public class ProcessController
 	
 	
 	private int[] numbers;
-	private String[] words = {"One", "Two", "Three"};
+	private String[] words; // = {"One", "Two", "Three"};
 	
 	
 	public ProcessController()
@@ -46,7 +46,7 @@ public class ProcessController
 			System.out.println(numbers[index]);
 		}
 		
-		
+		words = new String [] {"one", "two", "three", "four", "fine"};
 		
 		
 //		System.out.println("I'm a super cool project!");
