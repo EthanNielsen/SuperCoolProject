@@ -10,7 +10,7 @@ public class ProcessController
 	
 	
 	private int[] numbers;
-	private String[] words;
+	private String[] words = {"One", "Two", "Three"};
 	
 	
 	public ProcessController()
