@@ -24,11 +24,27 @@ public class ProcessController
 		System.out.println(words);
 		System.out.println(numbers);
 		
+		words[0] = "My Name";
+		words[1] = "is Slim";
+		words[2] = "Shady";
+		words[4] = "Eminem";
+		words[3] = "By";
+		
 		System.out.println(words[0]);
 		System.out.println(words[1]);
 		System.out.println(words[2]);
 		
+		for (String current : words)
+		{
+			System.out.println(current);
+		}
 		
+		for (int index = 0; index < numbers.length; index += 1)
+		{
+			numbers[index] = index +1;
+			
+			System.out.println(numbers[index]);
+		}
 		
 		
 		
